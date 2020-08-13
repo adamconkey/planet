@@ -1,0 +1,14 @@
+name: planet
+channels:
+  - conda-forge
+dependencies:
+  - tensorflow-gpu==1.13.1
+  - tensorflow-probability==0.6.0
+  - scikit-image
+  - scipy
+  - matplotlib
+  - ruamel.yaml
+  - gym
+  - pip
+  - pip:
+    - dm_control
